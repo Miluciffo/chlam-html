@@ -1,0 +1,33 @@
+.one-showed {
+    width: 100px !important;
+  }
+.Nav{
+    text-align: center;
+    float: left;
+    width: 10px; height: 70px;
+    background-color: rgba(1,1,1,0.5);
+    position: absolute;
+    z-index: 40;
+    left: 0px; right: 0px; bottom: 0px; top: 0px;
+    transition: width 1s linear;
+  }
+  
+  #blockOne{
+    font-family: Junegull;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid black;
+    width: 190px;
+    padding: 20px;
+    position: absolute;
+    display: none
+  }
+  
+  #One{
+    font-family: Junegull;
+    font-size: 40px;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    position: relative;
+  }
