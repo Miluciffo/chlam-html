@@ -1,0 +1,42 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test2</title>
+</head>
+<body>
+
+    <div id="elem">
+        <div id="elem-content">
+            <h1>HELLO</h1>
+            <button></button>
+        </div>
+        
+      </div>  
+</body>
+<script>
+    function test3(n) {
+        console.log('hello world' + ' ' + n)
+    }
+    // var answer1 = prompt('Вы являетьсь клиентом нашего банка?')
+    
+    // console.log(answer1)
+    // if (answer1 === 'да'){
+    //     document.location.href ="test.html";
+    
+    //     console.log(да)
+    // }
+    // if (answer1 === 'нет') {
+    //     document.location.href ="sklep.html";
+    //     console.log(нет)
+    // }
+    let elem = document.getElementById('elem');
+    let body= document.getElementsByTagName('body')[0];
+    elem.style.background = 'purple';
+    body.style.background = 'black'
+    body.style.color = 'white'
+   test3(100) 
+
+</script>
+</html>
