@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js></script>
+</head>
+<body>
+</body>
+<script>
+// import Math;
+
+var answer1 = prompt(' Число:')
+console.log(answer1)
+var answer2= prompt('Второе число:')
+console.log(answer2)
+var numer = prompt('знак')
+var int_an1 = Number(answer1)
+var int_an2 = Number(answer2)
+
+if (numer === '+') {
+    alert(int_an1+int_an2)
+  //  console.log('error')
+}
+
+if (numer === '-') {
+    alert(int_an1-int_an2)
+}
+
+if (numer === '/'){
+    alert(int_an1/int_an2)
+}
+if (numer === '*') {
+    alert(int_an1*int_an2)
+}
+if (numer === 'sqrt') {
+    alert('√'+Math.sqrt(int_an1) + ' √' +Math.sqrt(int_an2))
+    console.log('error')
+
+}
+else {
+    alert('error')
+}
+
+</script>
+</html>
